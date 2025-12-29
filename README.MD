@@ -87,9 +87,9 @@ adb install путь_к_файлу/wikipedia.apk
 
 Откройте файл `src/test/java/com/example/utils/AppiumDriverManager.java`
 
-Найдите строку 18 и замените `emulator-5554` на имя вашего устройства:
+Найдите строку 48 и замените `emulator-5562` на имя вашего устройства:
 ```java
-options.setDeviceName("emulator-5554");
+options.setDeviceName("emulator-5562");
 ```
 
 ### 7. Запуск Appium Server

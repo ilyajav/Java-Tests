@@ -45,7 +45,7 @@ public class AppiumDriverManager {
         options.setNoReset(true);
         options.setFullReset(false);
 
-        String deviceName = System.getProperty("deviceName", "emulator-5554");
+        String deviceName = System.getProperty("deviceName", "emulator-5562");
         options.setDeviceName(deviceName);
         options.setUdid(deviceName);
     }

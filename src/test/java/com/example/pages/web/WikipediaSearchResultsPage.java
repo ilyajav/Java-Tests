@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class WikipediaSearchResultsPage {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     @FindBy(id = "firstHeading")
     private WebElement pageHeading;
